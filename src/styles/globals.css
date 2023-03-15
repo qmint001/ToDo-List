@@ -1,0 +1,64 @@
+h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #333333; /* dark gray */
+  margin-top: 40px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #f2f2f2; /* light gray */
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-style: oblique;
+  color: #333333; /* dark gray */
+  background-color: #f2f2f2; /* light gray */
+  outline: none;
+  border-radius: 6px;
+}
+
+input:focus {
+  border-bottom: 2px solid #333333; /* dark gray */
+  background-color: #ffffff; /* white */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333333; /* dark gray */
+  background-color: #f2f2f2; /* light gray */
+  padding: 12px;
+  border-radius: 6px;
+}
+
+li button {
+  background-color: #ff5555; /* red */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+li button:hover {
+  background-color: #d40000; /* darker red */
+}
+
+div {
+  margin-top: 16px;
+  font-size: 16px;
+  color: red;
+}

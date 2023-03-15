@@ -1,11 +1,10 @@
-import { Footer } from "@/components/Footer";
-import { Welcome } from "@/components/Welcome";
+import { TodoList } from "@/components/TodoList";
+import { useState } from "react";
 
 export default function Home() {
   return (
     <div className="container">
-      <Welcome />
-      <Footer />
+      <TodoList />
     </div>
   );
 }
